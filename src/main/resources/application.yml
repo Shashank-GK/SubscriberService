@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: subscriber-service
+  cloud:
+    azure:
+      keyvault:
+        secret:
+          property-sources:
+            - endpoint: ${AZURE-KEYVAULT-URL}
+
+  datasource:
+    url: ${ss-database-url}
+    username: ${ss-database-username}
+    password: ${ss-database-password}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver

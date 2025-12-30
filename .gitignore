@@ -1,0 +1,63 @@
+# Ignore the entire IntelliJ IDEA folder and all its contents
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Ignore Maven Wrapper (already in your list, but ensure it's correct)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore build output
+target/
+out/
+
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Azure ###
+.azure/
+
+### Additional IntelliJ files ###
+*.iml
+
+### Maven Wrapper ###
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+### Git ###
+.gitattributes
